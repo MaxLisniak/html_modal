@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size: 1.2em;
+    font-family: Verdana;
+}
+article {
+    padding: 1% 5%;
+}
+footer {
+    padding: 30px;
+}
+h1, #sign-up-btn {
+    margin: 10px;
+}
+#sign-up-btn {
+    background-color: maroon;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 5px;
+    color: whitesmoke;
+}
+#sign-up-btn:active, #sign-up-btn:hover{
+    background-color: brown;
+    box-shadow: 10px;
+    border-bottom: maroon solid 5px;
+    padding-bottom: 5px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+main{
+    margin-top: 100px;
+}
+footer{
+    text-align: center;
+    border-top: 1px solid grey;
+}
+.bg-modal{
+    background-color: darkgray;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+#sign-up-modal{
+    width: 400px;
+    margin: auto;
+    border: 1px solid lavender;
+}
+#sign-up-modal .header{
+    background-color: lavender;
+    text-align: center;
+    height: 40px;
+    padding-top: 20px;
+}
+#sign-up-form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+}
+#sign-up-form input{
+    margin: 10px;
+    height: 30px;
+    font-size: .8em;
+    padding-left: 3px;
+    padding-bottom: 5px;
+    border: 1px solid lightgray;
+}
+#sign-up-form input:focus{
+    border: 1px solid lightskyblue;
+    border-bottom: 3px solid lightskyblue;
+    outline: none;
+    padding-bottom: 3px;
+}
+#submit {
+    background-color:indianred;
+    color: white;
+    box-sizing: content-box;
+    border: none !important;
+    padding-bottom: 5px !important;
+}
+#submit:active{
+    border-bottom: 3px solid brown !important;
+    padding-bottom: 2px !important;
+}
+#sign-up-form input, #submit{
+    border-radius: 3px;
+}
